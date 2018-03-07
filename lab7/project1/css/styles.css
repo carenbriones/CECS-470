@@ -1,0 +1,173 @@
+/* No margins or padding for the following elements */
+body, header, div, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+/* All headers have the same font */
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+
+/* Changes header color to black (for contrast purposes) */ 
+header h1, header h2 {
+    color: white;
+}
+
+/* Spaces the header more to the middle of the picture */
+header h1 {
+    padding-top: 200px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h2 {
+    font-size: 36px;
+}
+
+/* Centers the text in the header, adds a margin to the top of the header, 
+    pads the header on all sides, creates a border around the start link */
+header span {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 160px;
+    padding: 9px;
+    border: solid 1px white;
+}
+
+/* Makes the link color white */
+header span a:link, header span a:visited {
+    color: white;
+}
+
+/* Positions the banner's title roughly to the center of the picture in the background*/
+.banner--title
+{
+    position: absolute;
+    text-align: center;
+    top: 1%;
+    width: 100%;
+    font-size: 5vmin;
+}
+
+/* Makes the width of the banner fill up the width of the window */
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+/* Positions the media to the left, with padding to the right for the text next to it */
+.highlights--media{
+    float: left;
+    padding-right: 2%;
+}
+
+/* Pads the text within highlights on the left so it does not touch the pictures */
+.highlights--text{
+    padding-left: 2%;
+}
+
+/* Floats each highlights container to the left, adjusts width of both containers */
+.highlights--container{
+    float: left;
+    width: 48%;
+    padding: 1%;
+}
+
+/* Floats each button in the highlights to the right */
+.highlights--button:link{
+    float: right;
+}
+
+/* Gives the div padding on the left and right sides */
+.highlights{
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+}
+
+/* Gives the padding on left and right of same size, and pads the top  */
+.mosaic{
+    position: relative;
+    float: left;
+    padding-top: 275px;
+}
+
+/* Positioning of all the mosaic photos */
+.mosaic-item.mosaic--a{
+    position: absolute;
+}
+
+.mosaic-item.mosaic--b{
+    position: absolute;
+    padding-left: 590px;
+}
+
+.mosaic-item.mosaic--c{
+    position: absolute;
+    padding-left: 590px;
+    padding-top: 200px;
+}
+
+.mosaic-item.mosaic--d{
+    position: absolute;
+    padding-left: 885px;
+}
+
+.mosaic-item.mosaic--e{
+    position: absolute;
+    padding-top: 400px;
+}
+
+.mosaic-item.mosaic--f{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 295px;
+}
+
+.mosaic-item.mosaic--g{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 590px;
+}
+
+.mosaic-item.mosaic--h{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 885px;
+}
+
+.mosaic-item.mosaic--i{
+    position: absolute;
+    padding-top: 800px;
+}
+
+.mosaic-item.mosaic--j{
+    position: absolute;
+    padding-top: 600px;
+    padding-left: 295px;
+}
+
+.mosaic-item.mosaic--k{
+    position: absolute;
+    padding-top: 800px;
+    padding-left: 885px;
+}
+
+/* Adjusts the width of the window to account for the mosaic of photos */
+body{
+    width: 1410px;
+    position: relative;
+    align-content: center;
+}
+
+/* Positions the footer to be under the mosaic */
+footer{
+    position: absolute;
+    padding-top: 1000px;
+    padding-left: 120px;
+}

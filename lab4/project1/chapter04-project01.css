@@ -1,0 +1,122 @@
+/*  Changed color of text to white, changed background color to dark blue,
+    and added margins to the right, bottom, and left sides of the header and footer*/
+header, footer
+{
+    color: white;
+    background-color: #1A237E;
+    margin: 0em 4em 0.25em 4em;
+}
+
+/*  Added padding on all four sides on the h1 and p elements
+    inside the header */
+header h1, p
+{
+    padding: 1%;
+}
+
+/*  Added a thin, solid light purple blue border to each section element */
+section
+{
+    border-style: solid;
+    border-color: #C5CAE9;
+    border-width: thin;
+}
+
+/*  Added a margin to the right, bottom, and left side of the main component,
+    added padding on all four sides, and made the background color white */
+main
+{
+    margin: 0em 4em 0.25em 4em;
+    padding: 1%;
+    background-color: white;
+}
+
+/*  Added padding to the top and bottom of the nav component, and changed
+    the background color to blue */
+nav
+{
+    padding: 1% 0% 1% 0%;
+    background-color: #3F51B5;
+}
+
+/*  Changed the background color of the list item to pink when
+    the cursor is hovering over it */
+li:hover
+{
+    background-color: #F50057;
+}
+
+/*  Changed font family to sans-serif for links */
+a
+{
+    font-family: sans-serif;
+}
+
+/*  Changes link color to light blue when hovering over */
+a:hover
+{
+    color: #00B0FF;
+}
+
+/*  Changes font size to 2x the original size, and changes
+    the font to a sans-serif font */
+h1
+{
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+/*  Adds padding to all sides of h2 and h3 elements, changes background color
+    to purple, and changes the font to a sans-serif font */
+h2, h3
+{
+    padding: .5em;
+    background-color: #7986CB;
+    font-family: sans-serif;
+}
+
+/*  Adds padding to all sides of the figure caption, and changes the background
+    color to light purple */
+figcaption
+{
+    padding: .5em;
+    background-color: #C5CAE9;
+}
+
+/*  Changes the text color of all time elements to pink */
+time
+{
+    color: #FF80AB;
+}
+
+/*  Removes styling from the unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Adds padding to all sides of a list item, and displays them horizontally (inline)*/
+li
+{
+    padding: 1em;
+    display: inline;
+}
+
+/*  Changes the color of the text in the p element to purple */
+p.byline
+{
+    color: #7986CB;
+}
+
+/*  Changes the color of the links to deep sky blue*/
+a:link
+{
+    color: deepskyblue;
+}
+
+/*  Changes the background color of everything encased in the html tags to light purple */
+html
+{
+    background-color: #E8EAF6;
+}
