@@ -9,7 +9,6 @@ h1{
 }
 
 table{
-    border: 1pt solid black;
     border-collapse: collapse;
     width: 50vw;
     height: 50vw;
@@ -35,7 +34,7 @@ td{
     padding: 0.5%;
 }
 
-.non-sept-dates td{
+.non-sept-dates{
     background-color: darkgray;
 }
 

@@ -1,0 +1,125 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", serif;
+}
+
+h1, h2{
+    padding: 0 10px 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    padding-top: 5px;
+    height: 50px;
+    width: auto;
+}
+
+.bedroom img{
+    width: 70vw;
+    height: auto;
+    padding: 2vw 15vw 0vw 15vw;
+}
+
+.motto img{
+    width: 50vw;
+    height: auto;
+    padding: 0 25vw 0 25vw;
+}
+
+.top a{
+    font-size: 3vw;
+    padding: 0 41vw 0 41vw;
+    text-align: center;
+    color: black;
+}
+
+.deliveryfield{
+    margin-left: 1%;
+}
+
+.top a:hover{
+    text-decoration: underline;
+    color: #646464;
+}
+
+.top a:visited{
+    text-decoration: underline;
+    color: #646464;
+}
+
+header nav{
+    height: 55px;
+    border-bottom: 1px solid black;
+}
+
+header li{
+    padding-right: 25px;
+    display: inline;
+    font-size: 25px;
+    color:darkblue;
+}
+
+.links{
+    color: black;
+    vertical-align: super;
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links a{
+    text-decoration: none;
+    color: #68CDF6;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: #43849E;
+}
+
+.links a:visited{
+    color: #68CDF6;
+}
+
+.about{
+    padding: 10px 10px 0;
+}
+
+footer{
+    padding: 10px;
+}
+
+table img{
+    width: 23vw;
+    height: auto;
+}
+
+fieldset{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td{
+    text-align: center;
+    padding: 2vw;
+}
+
+table td:hover{
+    background-color: #E5E5E5;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body p{
+    padding: 0 10px 0 10px;
+}

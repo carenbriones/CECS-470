@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 9</title>
+   <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<form method="get" action="xx" id="mainForm" onsubmit="submitForm(event)">
+   <fieldset>
+       <legend><h1>Edit Art Work Details</h1></legend>
+      <table>
+         <tr>
+            <td colspan="2">
+               <p>
+               <label for="title">Title</label><br/>
+               <input type="text" name="title" id="title" class="required hilightable" onfocus="highlightToggle(this)" onblur="highlightToggle(this)"/>
+               </p>
+               <p>
+               <label for="description">Description</label><br/>
+               <input type="text" name="description" id="description" class="required hilightable" onfocus="highlightToggle(this)" onblur="highlightToggle(this)" />
+               </p>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <p>
+               <label for="genre">Genre</label><br/>
+               <select name="genre" class="hilightable"
+                       id="genre" onfocus="highlightToggle(this)" onblur="highlightToggle(this)" >
+                  <option>Choose genre</option>
+                  <option>Abstract</option>
+                  <option>Baroque</option>
+                  <option>Gothic</option>
+                  <option>Renaissance</option>
+               </select>
+               </p>
+               <p>
+               <label for="subject">Subject</label><br/>
+               <select name="subject" class="hilightable" id="subject" onfocus="highlightToggle(this)" onblur="highlightToggle(this)">
+                  <option>Choose subject</option>
+                  <option>Animals</option>
+                  <option>Landscape</option>
+                  <option>People</option>
+               </select>
+               </p>
+               <p>
+               <label for="medium">Medium</label><br/>
+               <input type="text" name="medium" id="medium" class="hilightable" onfocus="highlightToggle(this)" onblur="highlightToggle(this)" />
+               </p>
+               <p>
+               <label for="year">Year</label><br/>
+               <input type="text" name="year" id="year" class="hilightable required" onfocus="highlightToggle(this)" onblur="highlightToggle(this)" />
+               </p>
+               <p>
+               <label for="museum">Museum</label><br/>
+               <input type="text" name="museum" id="museum" class="hilightable" onfocus="highlightToggle(this)" onblur="highlightToggle(this)" />
+               </p>
+            </td>
+            <td>
+               <div class="box">
+                  <p>Type </p><br/>
+                   <label for="type1"><input type="radio" name="type" id="type1" value="1" checked>Painting</label><br/>
+                   <label for="type2"><input type="radio" name="type" id="type2" value="2">Sculpture</label><br/>
+               </div>
+               <div class="box">
+                  <p>Image Creative Commons Specification </p><br/>
+                   <label for="spec1"><input type="checkbox" name="cc" id="spec1">Attribution</label> <br/>
+                   <label for="spec2"><input type="checkbox" name="cc" id="spec2">Noncommercial</label><br/>
+                   <label for="spec3"><input type="checkbox" name="cc" id="spec3">No Derivative Works</label> <br/>
+                   <label for="spec4"><input type="checkbox" name="cc" id="spec4">Share Alike</label>
+               </div>
+            </td>
+         </tr>
+
+         <tr>
+            <td colspan="2">
+               <div class="rectangle centered">
+                  <input type="submit" value="submit" class="btn"> <input type="reset" value="Clear Form" class="btn">
+               </div>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+</form>
+        <script src="js/chapter09-project01.js"></script>
+    <footer>
+            Latest Update: <!--#echo var="LAST_MODIFIED"--><br/>
+            <a href=mailto:carenpbriones@gmail.com>carenpbriones@gmail.com</a>    
+    </footer>
+</body>
+</html>

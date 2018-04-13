@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', "Times New Roman", serif;
+    background-color: #eaf2ff;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 7vw;
+    padding: 0;
+}
+
+form{
+    padding: 20px;
+}
+
+.selections{
+    padding-left: 10px;
+}
+
+img{
+    height: 7vw;
+    display: inline;
+}
+
+select{
+    width: 100px;
+}
+
+footer{
+    padding: 0 20px 10px 20px;
+}

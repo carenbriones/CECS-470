@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Order | Caren's Corner</title>
+    <script src="js/data.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/javascripthomework.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="Caren's Corner logo"/></li>
+                <li><div class="links"><a href="http://web.csulb.edu/~013430025/javascripthomework/index.html">Home</a></div></li>
+                <li><div class="links"><a href="http://web.csulb.edu/~013430025/javascripthomework/furniture.html">Furniture</a></div></li>
+                <li><div class="links"><a href="http://web.csulb.edu/~013430025/javascripthomework/order.html">Order</a></div></li>
+            </ul>
+        </nav>
+        <h1>Order</h1>
+    </header>
+    
+    <div id="furnitureOrder">
+        <form method="get" action="xx" id="addressForm">
+            <table class="furnitureOrderTable">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <script>writeRows();</script>
+<!--                    <script></script>-->
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <br/>
+    
+    <div id="addressOrder">
+        <form method="get" action="xx" id="addressForm">
+            <fieldset>
+                <legend>Delivery/Pickup</legend>
+                <p>Option: </p>
+                <label for="delivery"><input type="radio" name="option" id="option1" value="1">Delivery</label><br/>
+                <label for="pickup"><input type="radio" name="option" id="option2" value="2">Pickup</label><br/><br/>
+                
+                <fieldset class="deliveryfield">
+                    <legend>Required for Delivery</legend>
+                <p>
+                    <label for="address1">Address 1: </label><br/>
+                    <input type="text" name="address1" id="address1" class="requiredadd"/>
+                </p>
+                <p>
+                    <label for="address2">Address 2: </label><br/>
+                    <input type="text" name="address2" id="address2"/>
+                </p>
+                <p>
+                    <label for="city">City: </label><br/>
+                    <input type="text" name="city" id="city" class="requiredadd"/>
+                </p>
+                <p>
+                    <label for="State">State: </label><br/>
+                    <input type="text" name="state" id="state" class="requiredadd"/>
+                </p>
+                <p>
+                    <label for="zip">Zip Code: </label><br/>
+                    <input type="text" name="zip" id="zip" class="requiredadd"/>
+                </p>
+                </fieldset>
+                
+                <p>
+                    <label for="name">Name: </label><br/>
+                    <input type="text" name="name" id="name" class="required"/>
+                </p>
+                <p>
+                    <label for="number">Phone Number: </label><br/>
+                    <input type="text" name="number" id="name" class="required"/>
+                </p>
+                <p>
+                    <label for="email">Email: </label><br/>
+                    <input type="text" name="email" id="email" class="required"/>
+                </p>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </div>
+    
+    <footer>
+        <p>Latest Update: <!--#echo var="LAST_MODIFIED"--></p>
+        <a href=mailto:carenpbriones@gmail.com>carenpbriones@gmail.com</a>    
+    </footer>
+</body>
+    
+</html>
